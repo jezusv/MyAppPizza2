@@ -12,7 +12,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Tipo de Pizza"
+        android:text="@string/tipo_de_pizza"
         android:textStyle="bold"
         android:layout_marginBottom="8dp"
         />
@@ -25,7 +25,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Tipo de Masa"
+        android:text="@string/tipo_de_masa"
         android:textStyle="bold"
         android:layout_marginBottom="8dp"/>
     <RadioGroup
@@ -38,24 +38,24 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="8dp"
-            android:text="Masa gruesa"/>
+            android:text="@string/masa_gruesa"/>
         <RadioButton
             android:id="@+id/rbt_masa2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="8dp"
-            android:text="Masa delgada"/>
+            android:text="@string/masa_delgada"/>
         <RadioButton
             android:id="@+id/rbt_masa3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="8dp"
-            android:text="Masa artesanal"/>
+            android:text="@string/masa_artesanal"/>
     </RadioGroup>
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Complementos"
+        android:text="@string/complementos"
         android:textStyle="bold"
         android:layout_marginBottom="8dp"/>
     <CheckBox
@@ -63,18 +63,18 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
-        android:text="Extra queso mozzarella"/>
+        android:text="@string/extra_queso_mozzarella"/>
     <CheckBox
         android:id="@+id/chk_extra2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
-        android:text="Extra jamón"/>
+        android:text="@string/extra_jamon"/>
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Dirección de Envío"
+        android:text="@string/direccion_de_envio"
         android:textStyle="bold"
         android:layout_marginBottom="8dp"/>
     <EditText
@@ -91,7 +91,7 @@
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
             style="@style/Widget.AppCompat.Button.Colored"
-            android:text="Ordenar!"
+            android:text="@string/ordenar"
             />
     </RelativeLayout>
 
